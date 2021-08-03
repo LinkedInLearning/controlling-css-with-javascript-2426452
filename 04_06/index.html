@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <script src="script.js" defer></script>
+    <title>Challenge: HSLA color selector</title>
+  </head>
+  <body>
+    <header class="masthead">
+      <h1>Challenge: HSLA Color selector</h1>
+    </header>
+    <main class="main-content">
+      <div class="color-swatch">hsla(<span class="hue">0, 100%, 50%, 1)</div>
+      <div class="controls">
+        <h2>Color controls</h2>
+        <div class="hue">
+          <label for="hue">Hue:</label>
+          <div class="reference"></div>
+          <input type="range" id="hue" name="hue" min="0" max="360" value="0" />
+        </div>
+        <div class="saturation">
+          <label for="saturation">Saturation:</label>
+          <div class="reference"></div>
+          <input
+            type="range"
+            id="saturation"
+            name="saturation"
+            min="0"
+            max="100"
+            value="100"
+          />
+        </div>
+        <div class="lightness">
+          <label for="lightness">Lightness:</label>
+          <div class="reference"></div>
+          <input
+            type="range"
+            id="lightness"
+            name="lightness"
+            min="0"
+            max="100"
+            value="50"
+          />
+        </div>
+        <div class="alpha">
+          <label for="alpha">Alpha:</label>
+          <div class="reference"></div>
+          <input
+            type="range"
+            id="alpha"
+            name="alpha"
+            min="0"
+            max="100"
+            value="100"
+          />
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

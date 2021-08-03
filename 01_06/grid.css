@@ -1,0 +1,10 @@
+.animals {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  gap: 1rem;
+}
+
+.animals li {
+  margin-block-end: 0;
+  text-align: center;
+}

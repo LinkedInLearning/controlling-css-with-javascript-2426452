@@ -1,0 +1,10 @@
+.animals li a {
+  border-radius: 2rem;
+  transition: color 0.3s;
+  transition: background-color 0.3s;
+}
+
+.animals li a:hover {
+  background: black;
+  color: white;
+}
