@@ -11,5 +11,3 @@ const targetSheet = styleSheetsArray.find((styleSheet) => {
 });
 
 console.log(targetSheet);
-targetSheet.cssRules[0].style.backgroundColor = "hsl(120, 57%, 20%)";
-targetSheet.cssRules[0].style.borderRadius = "1rem";
